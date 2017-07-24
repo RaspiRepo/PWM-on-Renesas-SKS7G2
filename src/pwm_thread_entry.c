@@ -1,6 +1,6 @@
 #include "pwm_thread.h"
 
-/* Servo Motor Control entry function */
+/* PWM Control entry function */
 void pwm_thread_entry(void)
 {
     g_timer0.p_api->open(g_timer0.p_ctrl, g_timer0.p_cfg);
